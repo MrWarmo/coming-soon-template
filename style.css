@@ -4,7 +4,6 @@ body {
     margin: 0; /* recommended */
 	background-color: #2D2D2D;
   }
-  
   h1 {
    position: absolute; /* taken out of the normal flow of the document */
    top: 50%; /* moved down by 50% of the screen height */
@@ -14,8 +13,3 @@ body {
    margin: 0; /* again, for perfect center */
    color: white;
   }
-
-  html {
-    visibility: visible;
-    opacity: 1;
-}
