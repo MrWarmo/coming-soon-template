@@ -12,9 +12,10 @@ body {
    text-align: center;
    margin: 0; /* again, for perfect center */
    color: white;
-   font-family: "Oxanium";
+   font-family: 'Oxanium';
    font-weight: 450;
-   font-size: 7vw;
+   font-size: 8vw;
+   text-align: center;
   }
   @font-face {
     font-family: 'Oxanium'; /*a name to be used later*/
