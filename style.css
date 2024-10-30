@@ -12,4 +12,11 @@ body {
    text-align: center;
    margin: 0; /* again, for perfect center */
    color: white;
+   font-family: "Oxanium";
+   font-weight: 450;
+   font-size: 7vw;
   }
+  @font-face {
+    font-family: 'Oxanium'; /*a name to be used later*/
+    src: url('Oxanium-VariableFont_wght.ttf'); /*URL to font*/
+}
