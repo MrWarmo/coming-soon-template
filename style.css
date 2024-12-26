@@ -2,7 +2,9 @@ body {
     position: relative; /* usually the parent, in this case the body element, has position relative so that the absolute positioned child is positioned relative to it */
     height: 100vh; /* 100% of the viewport height */
     margin: 0; /* recommended */
-	background-color: #2D2D2D;
+	  background-color: #2D2D2D;
+    min-height: 100vh; /* Viewport fix */
+    min-height: -webkit-fill-available; /* Viewport fix */
   }
   h1 {
    position: absolute; /* taken out of the normal flow of the document */
