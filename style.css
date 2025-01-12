@@ -1,9 +1,9 @@
 body {
   position: relative; /* usually the parent, in this case the body element, has position relative so that the absolute positioned child is positioned relative to it */
-  height: 100vh; /* 100% of the viewport height */
+  height: 100dvh; /* 100% of the viewport height */
   margin: 0; /* recommended */
 	background-color: #2D2D2D;
-  min-height: 100vh;
+  min-height: 100dvh;
   min-height: -webkit-fill-available;
   }
 
@@ -38,15 +38,4 @@ h2 {
 
 main {
   flex: 1;
-}
-
-html {
-  height: -webkit-fill-available;
-}
-
-@supports (-webkit-touch-callout: none) {
-  body {
-    /* The hack for Safari */
-    height: -webkit-fill-available;
-  }
 }
