@@ -6,25 +6,35 @@ body {
   min-height: -webkit-fill-availble;
   }
 
-  h1 {
-   position: absolute; /* taken out of the normal flow of the document */
-   top: 50%; /* moved down by 50% of the screen height */
-   transform: translateY(-50%); /* moved back up (Y axis) by half of its height to achieve the perfect center */
-   width: 100%; /* needs to be defined to keep the default block behavior */
-   text-align: center;
-   margin: auto;
-   color: white;
-   font-family: 'Oxanium';
-   font-weight: 450;
-   font-size: 8vw;
-  }
-  
-h2 {
+h1 {
   position: absolute; /* taken out of the normal flow of the document */
-  bottom:0%; /* moved down by 50% of the screen height */
+  top: 50%; /* moved down by 50% of the screen height */
   transform: translateY(-50%); /* moved back up (Y axis) by half of its height to achieve the perfect center */
+  width: 100%; /* needs to be defined to keep the default block behavior */
+  text-align: center;
+  margin: auto;
+  color: white;
+  font-family: 'Oxanium';
+  font-weight: 450;
+  font-size: 8vw;
+}
+  
+extra {
+  position: absolute;
+  bottom: 1%;
   text-align: left;
-  margin-left: 1%;
+  margin-left: 2%;
+  color: white;
+  font-family: 'Oxanium';
+  font-weight: 300;
+  font-size: 4vw;
+  }
+
+footer {
+  position: absolute;
+  bottom: 1%;
+  text-align: left;
+  margin-left: 2%;
   color: white;
   font-family: 'Oxanium';
   font-weight: 300;
