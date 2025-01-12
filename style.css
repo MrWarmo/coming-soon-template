@@ -1,10 +1,9 @@
 body {
   position: relative; /* usually the parent, in this case the body element, has position relative so that the absolute positioned child is positioned relative to it */
-  height: 100dvh; /* 100% of the viewport height */
+  height: 100vh; /* 100% of the viewport height */
   margin: 0; /* recommended */
 	background-color: #2D2D2D;
-  min-height: 100dvh;
-  min-height: -webkit-fill-available;
+  min-height: 100vh;
   }
 
   h1 {
@@ -19,6 +18,7 @@ body {
    font-weight: 450;
    font-size: 8vw;
   }
+  
 h2 {
   position: absolute; /* taken out of the normal flow of the document */
   bottom:0%; /* moved down by 50% of the screen height */
@@ -34,8 +34,4 @@ h2 {
 @font-face {
     font-family: 'Oxanium'; /*a name to be used later*/
     src: url('Oxanium-VariableFont_wght.ttf'); /*URL to font*/
-}
-
-main {
-  flex: 1;
 }
