@@ -4,7 +4,7 @@ body {
 	background-color: #2D2D2D;
   min-height: 100dvh;
   min-height: -webkit-fill-availble;
-  }
+}
 
 h1 {
   position: absolute; /* taken out of the normal flow of the document */
@@ -28,7 +28,7 @@ extra {
   font-family: 'Oxanium';
   font-weight: 300;
   font-size: 4vw;
-  }
+}
 
 footer {
   position: absolute;
@@ -39,9 +39,29 @@ footer {
   font-family: 'Oxanium';
   font-weight: 300;
   font-size: 4vw;
-  }
+}
 
 @font-face {
     font-family: 'Oxanium'; /*a name to be used later*/
     src: url('Oxanium-VariableFont_wght.ttf'); /*URL to font*/
+}
+
+/* unvisited link */
+a:link {
+  color: Orange;
+}
+
+/* visited link */
+a:visited {
+  color: MediumSeaGreen;
+}
+
+/* selected link */
+a:active {
+  color: whitesmoke;
+}
+
+/* mouse over link */
+a:hover {
+  color: crimson;
 }
