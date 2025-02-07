@@ -18,7 +18,7 @@ h1 {
   font-weight: 450;
   font-size: 8vw;
 }
-  
+
 extra {
   position: absolute;
   bottom: 1%;
@@ -39,6 +39,15 @@ footer {
   font-family: 'Oxanium';
   font-weight: 300;
   font-size: 4vw;
+}
+
+@media screen and (min-width: 390px) {
+  h1 {
+    font-size: 65px;
+  }
+  extra {
+    font-size: 35px;
+  }
 }
 
 @font-face {
