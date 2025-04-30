@@ -14,8 +14,8 @@ h1 {
   text-align: center;
   margin: auto;
   color: white;
-  font-family: 'Oxanium';
-  font-weight: 450;
+  font-family: 'Oxanium-Reg';
+  font-weight: 400;
   font-size: 8vw;
 }
 
@@ -25,8 +25,8 @@ extra {
   text-align: left;
   margin-left: 2%;
   color: white;
-  font-family: 'Oxanium';
-  font-weight: 300;
+  font-family: 'Oxanium-200';
+  font-weight: 200;
   font-size: 4vw;
 }
 
@@ -36,8 +36,8 @@ footer {
   text-align: left;
   margin-left: 2%;
   color: white;
-  font-family: 'Oxanium';
-  font-weight: 300;
+  font-family: 'Oxanium-200';
+  font-weight: 200;
   font-size: 4vw;
 }
 
@@ -52,7 +52,22 @@ footer {
 
 @font-face {
     font-family: 'Oxanium'; /*a name to be used later*/
-    src: url('Oxanium-VariableFont_wght.ttf'); /*URL to font*/
+    src: url('/fonts/Oxanium-VariableFont_wght.ttf') format('truetype'); /*URL to font*/
+    font-display: block;
+}
+
+@font-face {
+  font-family: 'Oxanium-Reg'; /*a name to be used later*/
+  src: url('/fonts/oxanium-v19-latin-regular.ttf') format('truetype'); /*URL to font*/
+  src: url('/fonts/oxanium-v19-latin-regular.woff2') format('woff2'); /*URL to font*/
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Oxanium-200'; /*a name to be used later*/
+  src: url('/fonts/oxanium-v19-latin-200.ttf') format('truetype'); /*URL to font*/
+  src: url('/fonts/oxanium-v19-latin-200.woff2') format('woff2'); /*URL to font*/
+  font-display: block;
 }
 
 /* unvisited link */
