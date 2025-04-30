@@ -1,9 +1,9 @@
 body {
-  position: relative; /* usually the parent, in this case the body element, has position relative so that the absolute positioned child is positioned relative to it */
-  margin: 0; /* recommended */
-	background-color: #2D2D2D;
-  min-height: 100dvh;
-  min-height: -webkit-fill-availble;
+	position: relative; /* usually the parent, in this case the body element, has position relative so that the absolute positioned child is positioned relative to it */
+	margin: 0; /* recommended */
+	background-color: #2d2d2d;
+	min-height: 100dvh;
+	min-height: -webkit-fill-availble;
 }
 
 h1 {
@@ -42,12 +42,12 @@ footer {
 }
 
 @media screen and (min-width: 641px) {
-  h1 {
-    font-size: 65px;
-  }
-  extra {
-    font-size: 35px;
-  }
+	h1 {
+		font-size: 65px;
+	}
+	extra {
+		font-size: 35px;
+	}
 }
 
 @font-face {
@@ -72,20 +72,20 @@ footer {
 
 /* unvisited link */
 a:link {
-  color: Orange;
+	color: Orange;
 }
 
 /* visited link */
 a:visited {
-  color: MediumSeaGreen;
+	color: MediumSeaGreen;
 }
 
 /* selected link */
 a:active {
-  color: whitesmoke;
+	color: whitesmoke;
 }
 
 /* mouse over link */
 a:hover {
-  color: crimson;
+	color: crimson;
 }
