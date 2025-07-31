@@ -51,21 +51,21 @@ footer {
 
 @font-face {
     font-family: 'Oxanium'; /*a name to be used later*/
-    src: url('/fonts/Oxanium-VariableFont_wght.ttf') format('truetype'); /*URL to font*/
+    src: url('fonts/Oxanium-VariableFont_wght.ttf') format('truetype'); /*URL to font*/
     font-display: block;
 }
 
 @font-face {
   font-family: 'Oxanium-Reg'; /*a name to be used later*/
-  src: url('/fonts/oxanium-v19-latin-regular.ttf') format('truetype'); /*URL to font*/
-  src: url('/fonts/oxanium-v19-latin-regular.woff2') format('woff2'); /*URL to font*/
+  src: url('fonts/oxanium-v19-latin-regular.ttf') format('truetype'); /*URL to font*/
+  src: url('fonts/oxanium-v19-latin-regular.woff2') format('woff2'); /*URL to font*/
   font-display: block;
 }
 
 @font-face {
   font-family: 'Oxanium-200'; /*a name to be used later*/
-  src: url('/fonts/oxanium-v19-latin-200.ttf') format('truetype'); /*URL to font*/
-  src: url('/fonts/oxanium-v19-latin-200.woff2') format('woff2'); /*URL to font*/
+  src: url('fonts/oxanium-v19-latin-200.ttf') format('truetype'); /*URL to font*/
+  src: url('fonts/oxanium-v19-latin-200.woff2') format('woff2'); /*URL to font*/
   font-display: block;
 }
 
