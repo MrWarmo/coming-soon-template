@@ -2,8 +2,7 @@ body {
 	position: relative; /* usually the parent, in this case the body element, has position relative so that the absolute positioned child is positioned relative to it */
 	margin: 0; /* recommended */
 	background-color: #2d2d2d;
-	min-height: 100dvh;
-	min-height: -webkit-fill-availble;
+	min-height: 100dvh; /* 100dvh is the height of the viewport, but it accounts for dynamic changes in height (like on mobile when the address bar hides) */
 }
 
 h1 {
@@ -19,7 +18,7 @@ h1 {
   font-size: 8vw;
 }
 
-extra {
+h2 {
   position: absolute;
   bottom: 1%;
   text-align: left;
@@ -45,28 +44,28 @@ footer {
 	h1 {
 		font-size: 65px;
 	}
-	extra {
+	h2 {
 		font-size: 35px;
 	}
 }
 
 @font-face {
     font-family: 'Oxanium'; /*a name to be used later*/
-    src: url('oxanium-VariableFont_wght.ttf') format('truetype'); /*URL to font*/
+    src: url('/fonts/Oxanium-VariableFont_wght.ttf') format('truetype'); /*URL to font*/
     font-display: block;
 }
 
 @font-face {
   font-family: 'Oxanium-Reg'; /*a name to be used later*/
-  src: url('oxanium-v19-latin-regular.ttf') format('truetype'); /*URL to font*/
-  src: url('oxanium-v19-latin-regular.woff2') format('woff2'); /*URL to font*/
+  src: url('/fonts/oxanium-v19-latin-regular.ttf') format('truetype'); /*URL to font*/
+  src: url('/fonts/oxanium-v19-latin-regular.woff2') format('woff2'); /*URL to font*/
   font-display: block;
 }
 
 @font-face {
   font-family: 'Oxanium-200'; /*a name to be used later*/
-  src: url('oxanium-v19-latin-200.ttf') format('truetype'); /*URL to font*/
-  src: url('oxanium-v19-latin-200.woff2') format('woff2'); /*URL to font*/
+  src: url('/fonts/oxanium-v19-latin-200.ttf') format('truetype'); /*URL to font*/
+  src: url('/fonts/oxanium-v19-latin-200.woff2') format('woff2'); /*URL to font*/
   font-display: block;
 }
 
